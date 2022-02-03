@@ -1,31 +1,54 @@
-body {
-  background: #89849c;
+body{
+  background: rgb(198, 127, 240);
 }
 .container {
-  height: 300px;
-  width: 500px;
-  margin: 60px auto;
-  border-radius: 10px;
+  height: 500px;
+  width: 360px;
+  margin: 150px auto 0;
+  background: rgb(255, 255, 255);
+  border-radius: 60px;
+  overflow: hidden;
 }
-.head-card {
-  background-image: url(https://images.squarespace-cdn.com/content/v1/56c0ae80ab48de4417bd17fa/1456686084465-WRWE4AJNPM6W2AVY8RCG/image-asset.jpeg);
-  object-fit: scale-down;
-  height: 100px;
-
-}
-.img-container {
-  border-radius: 50%;
-  background: #fff;
+.header {
+  background: rgb(255, 255, 255);
   height: 160px;
-  width: 160px;
-  transform: translate(100px , 100px);
+  background-image: url(https://images.squarespace-cdn.com/content/v1/56c0ae80ab48de4417bd17fa/1456686084465-WRWE4AJNPM6W2AVY8RCG/image-asset.jpeg);
+  background-size: cover;
+  
+}
+.header img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  text-align: center;
+  transform: translate(74px, 64px);
+}
+.info {
+  padding-top: 125px;
+}
+.name, .link, .about {
+  text-align: center;
+}
+.name{
+  font-size: 26px;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+}
+.link {
+  margin: 13px 0;
+  letter-spacing: 7px;
+}
+.about {
+ margin-top: 20px;
+}
+.socials {
+  font-size: 30px;
+  color: blue;
+  margin-top: 20px;
+  text-align: center;
 
 }
-.img-container img {
-  width: 150px;
-  height: 150px;
-  /**border: 10px solid #fff;
-  margin: 50px auto;**/
-  border-radius: 50%;
-  
+.socials i {
+  margin: 0 8px;
 }
